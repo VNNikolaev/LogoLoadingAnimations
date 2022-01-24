@@ -11,6 +11,8 @@
 		5CAA655E279F117D0005EE7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA655D279F117D0005EE7F /* ContentView.swift */; };
 		5CAA6560279F11810005EE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAA655F279F11810005EE7F /* Assets.xcassets */; };
 		5CAA6563279F11810005EE7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAA6562279F11810005EE7F /* Preview Assets.xcassets */; };
+		5CAA656A279F12EC0005EE7F /* View+RoundedCornerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA6569279F12EC0005EE7F /* View+RoundedCornerExtension.swift */; };
+		5CAA656E279F139C0005EE7F /* LogoAnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA656D279F139C0005EE7F /* LogoAnimationModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5CAA655D279F117D0005EE7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CAA655F279F11810005EE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CAA6562279F11810005EE7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CAA6569279F12EC0005EE7F /* View+RoundedCornerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCornerExtension.swift"; sourceTree = "<group>"; };
+		5CAA656D279F139C0005EE7F /* LogoAnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				5CAA655B279F117D0005EE7F /* LogoLoadingAnimationApp.swift */,
+				5CAA6569279F12EC0005EE7F /* View+RoundedCornerExtension.swift */,
 				5CAA655D279F117D0005EE7F /* ContentView.swift */,
+				5CAA656D279F139C0005EE7F /* LogoAnimationModifier.swift */,
 				5CAA655F279F11810005EE7F /* Assets.xcassets */,
 				5CAA6561279F11810005EE7F /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CAA655E279F117D0005EE7F /* ContentView.swift in Sources */,
+				5CAA656A279F12EC0005EE7F /* View+RoundedCornerExtension.swift in Sources */,
+				5CAA656E279F139C0005EE7F /* LogoAnimationModifier.swift in Sources */,
 				5CAA655C279F117D0005EE7F /* LogoLoadingAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
