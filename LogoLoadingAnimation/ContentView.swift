@@ -21,7 +21,6 @@ struct ContentView: View {
                     // Left top rectangle
                     Rectangle()
                         .modifier(CustomLogoAnimation(progress: progress, figure: .topLeftRectangle))
-//                        .foregroundColor(.blue)
                         .foregroundColor(.mint)
                     //  Right top rectangle
                     Rectangle()
