@@ -130,7 +130,7 @@ struct CustomLogoAnimation: AnimatableModifier {
     }
 
     var insideCircleFrame: CGFloat {
-        var val: CGFloat = 1
+        var val = size
 
         if progress <= 90 {
             val = progress / 3.75
