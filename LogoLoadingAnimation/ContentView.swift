@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var progress = 0.0
+    @State private var progress = CGFloat.zero
 
     var body: some View {
         ZStack {
@@ -40,15 +40,15 @@ struct ContentView: View {
                         .blendMode(.destinationOut)
                 }
                 //  Outside circle
-                .modifier(CustomLogoAnimation(progress: progress, figure: .outsideCircle))
                 .compositingGroup()
-                .frame(width: 56.0, height: 56.0)
-                .rotationEffect(.degrees(progress))
+                .modifier(CustomLogoAnimation(progress: progress, figure: .outsideCircle))
+                .rotationAnimation(on: progress)
+                .frame(size: 56.0)
             }
-            .onAppear {
-                withAnimation(.easeInOut(duration: 5).delay(1).repeatForever(autoreverses: false)) {
-                    progress = 720
-                }
+        }
+        .onAppear {
+            withAnimation(.linear(duration: 3).repeatForever(autoreverses: false)) {
+                progress = 990
             }
         }
     }
